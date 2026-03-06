@@ -1,0 +1,38 @@
+<!-- Left panel & navigation section -->
+<div id="left-panel-container">
+    <!-- Left panel close button -->
+    <span onclick="closeLeftPanel()" id="left-panel-close-button" class="material-icons"> left_panel_close </span>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <!-- About Us nav link -->
+            <li> <a href="#" target="_self"> About Us </a> </li>
+            <!-- Gyroscope Test nav link -->
+            <li> <a href="#" target="_self"> Gyroscope Test </a> </li>
+            <!-- Log nav link -->
+            <li> <a href="#" target="_self"> Log </a> </li>
+            <!-- Help nav link -->
+            <li> <a href="#" target="_self"> Help </a> </li>
+            <!-- Contact Us nav link -->
+            <li> <a href="#" target="_self"> Contact Us </a> </li>
+        </ul>
+    </nav>
+    <!-- Profile section -->
+    <div class="profile-container">
+        <!-- Profile icon -->
+        <span class="material-icons" id="profile-icon"> account_circle </span>
+        <!-- Username display -->
+        <span id="username-display"> Guest </span>
+        <!-- Options icon or button -->
+        <span id="options-button"> &#8942; </span>
+        <!-- Option dropdown -->
+        <ul class="dropdown-reverse" id="options-dropdown">
+            <!-- Login/Signup option -->
+            <li> <a onclick="openSignupDialogueBox()"> Login/Signup </a> </li>
+            <!-- Logout option -->
+            <li> <a onclick="logout()"> Logout </a> </li>
+            <!-- Settings option -->
+            <li> <a onclick="openSettings()"> Settings </a> </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+<!-- About Us section -->
+<div class="about-us-container">
+    <!-- Carousel -->
+    <div class="carousel-container">
+        <!-- Left arrow - previous slide -->
+        <input type="button" class="carousel-button previous-slide-button x-axis-text" onclick="previousSlideDisplay()" value="&#10094;">
+        <!-- Slide 1 - active -->
+        <div class="slide active">
+            <div class="subheading y-axis-text"> Project Overview </div>
+            <div class="primary-text">
+                <p>
+                    The RC Motion Control Project is an innovative system that allows users to control an RC car using the motion sensors of a phone or laptop. Instead of using a traditional remote controller, the system reads the movement of the device and converts it into control signals for the vehicle.
+                </p>
+                <p>
+                    The goal of this project is to create a simple and interactive way to control machines using modern web technology and microcontrollers.
+                </p>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="subheading y-axis-text"> How the System Works? </div>
+            <div class="primary-text">
+                <p>
+                    The system uses the <b>gyroscope sensor</b> available in most smartphones and some laptops. When the device is tilted or rotated, the gyroscope detects the change in orientation.
+                </p>
+                <p>
+                    These changes are displayed as real-time values on the website and can be used to control the movement of the RC car.
+                </p>
+                <p>
+                    The basic process is: <br>
+                    <ol>
+                        <li> The user opens the website. </li>
+                        <li> The gyroscope sensor detects motion. </li>
+                        <li> Motion values update in real time. </li>
+                        <li> These values can be used to control the RC car. </li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="subheading y-axis-text"> Technology Used </div>
+            <div class="primary-text">
+                <p>
+                    This project combines hardware and web technologies to build a motion-based control system.
+                </p>
+                <p>
+                    <b class="x-axis-text"> Hardware </b> <br>
+                    <ul>
+                        <li> Microcontroller (such as RP2040) </li>
+                        <li> RC car motors and control circuit </li>
+                        <li> Communication module (depending on implementation) </li>
+                    </ul>
+                </p>
+                <p>
+                    <b class="x-axis-text"> Software </b> <br>
+                    <ul>
+                        <li> Web browser interface </li>
+                        <li> Full-screen control interface </li>
+                        <li> Gyroscope motion detection </li>
+                        <li> Real-time motion value display </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide">
+            <div class="subheading y-axis-text"> Project Goals </div>
+            <div class="primary-text">
+                <ul>
+                    <li> Create an intuitive motion-based control system </li>
+                    <li> Demonstrate the use of device motion sensors in web applications </li>
+                    <li> Build a simple interface that works without installing additional apps </li>
+                    <li> Provide a flexible system that can be expanded with more features </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="slide">
+            <div class="subheading y-axis-text"> Future Development </div>
+            <div class="primary-text">
+                <ul>
+                    <li> Adjustable control sensitivity </li>
+                    <li> Calibration tools </li>
+                    <li> Real-time communication with the RC car </li>
+                    <li> Data visualization for motion tracking </li>
+                    <li> Custom control modes </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Right arrow - next slide -->
+        <input type="button" class="carousel-button next-slide-button x-axis-text" onclick="nextSlideDisplay()" value="&#10095;">
+        <!-- Slide indicator -->
+        <span class="slide-indicator x-axis-text"> 1 </span>
+    </div>
+</div>
